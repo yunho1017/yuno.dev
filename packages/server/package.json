@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf ../../dist/server && tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.26.0",
+    "express": "^4.18.3",
+    "react-server-dom-webpack": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@babel/register": "^7.25.9",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.7",
+    "nodemon": "^3.1.0"
+  },
+  "packageManager": "yarn@1.22.22"
+}
